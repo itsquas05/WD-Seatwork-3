@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #333; 
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h1 * {
+  font-family: "Fredoka One", cursive;
+}
+
+/* Dev */
+.dota,
+.dota * {
+  /* outline: 1px dashed red; */
+}
+
+.content,
+.content * {
+  /* outline: 3px dotted gold; */
+}
+
+/* Dep */
+body {
+  background: linear-gradient(75deg, #ececec 0%, #d9d9d9 100%); 
+  background: -moz-linear-gradient(75deg, #ececec 0%, #d9d9d9 100%);
+  background: -webkit-linear-gradient(75deg, #ececec 0%, #d9d9d9 100%);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  padding: clamp(0, 1vw, 5vw);
+  background: linear-gradient(
+    -8deg,
+    #ffffff00 0%,
+    #ffffff00 26%,
+    #d4a373 26%,
+    #e97400 100%
+  ); 
+  background: -moz-linear-gradient(
+    -8deg,
+    #ffffff00 0%,
+    #ffffff00 26%,
+    #d4a373 26%,
+    #d4a373 100%
+  );
+  background: -webkit-linear-gradient(
+    -8deg,
+    #ffffff00 0%,
+    #ffffff00 26%,
+    #7b0000 26%,
+    #e4a96d 100%
+  );
+
+  & > .dota {
+    width: 40%;
+    border-right: 2px solid #333; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    & .title {
+      position: absolute;
+      top: 1rem;
+      left: 1rem;
+      height: clamp(2rem, 10vw, 10%);
+    }
+
+    & .bear-stack {
+        height: clamp(5rem, 8vw, 6rem);
+      transition: all 0.1s ease;
+    }
+
+    & .panpan {
+      width: 100%;
+      object-fit: cover;
+      transition: all 0.5s ease;
+    }
+
+    & .socials {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: absolute;
+      top: clamp(1rem, 1vw, 2rem);
+      right: clamp(1rem, 1vw, 2rem);
+      gap: 0.5rem;
+
+      a {
+        text-decoration: none;
+      }
+
+      i {
+        font-size: 1.5rem;
+        position: relative;
+        display: flex;
+
+        &.bi-github {
+          transform: translateY(-3.5rem);
+          transition: all 0.3s ease;
+          color: transparent;
+        }
+
+        &.bi-envelope {
+          transform: translateY(-5.5rem);
+          transition: all 0.3s ease;
+          color: transparent;
+        }
+      }
+
+      &:hover {
+        .bear-stack {
+          transform: rotateZ(180deg);
+        }
+
+        i.bi-github,
+        i.bi-envelope {
+          transform: translateY(0);
+          color: #333; 
+        }
+      }
+    }
+  }
+
+  & > .content {
+    width: 70%;
+    padding: clamp(.3rem, 1vw, 2rem) clamp(2rem, 1vw, 7rem);
+    display: flex;
+    flex-direction: column;
+
+    & > h3.subtitle {
+      font-size: clamp(2rem, 2vw, 3rem );
+      font-weight: 100;
+      letter-spacing: clamp(.3rem, 1vw, 1rem);
+      margin-bottom: 1rem;
+    }
+
+    & > h1.title {
+      font-size: clamp(2rem, 1vw, 5rem);
+      margin-bottom: 2rem;
+    }
+
+    & > p.description {
+      font-size: clamp(.6rem, 1vw, 1.2rem);
+      margin-bottom: 3rem;
+    }
+
+    & > nav {
+      display: flex;
+      gap: 1rem;
+      width: fit-content;
+
+      &:hover > :not(:hover) {
+        opacity: 0.6;
+      }
+
+      & > a {
+        border: rgba(51, 51, 51, 0.534) 1px solid; 
+        border-radius: 25px;
+        padding: 0.7rem 1.5rem;
+        text-decoration: none;
+        color: #333; 
+        font-weight: 500;
+        transition: all 0.2s ease;
+        font-size: clamp(.8rem, 1vw, 1.2rem);
+
+        &:hover {
+          transform: scale(0.9);
+          filter: drop-shadow(0.3rem 0.3rem #333); 
+        }
+
+        &.ghost {
+          background: linear-gradient(-8deg, #a6a6a6 0%, #c0c0c0 100%); 
+          background: -moz-linear-gradient(-8deg, #a6a6a6 0%, #c0c0c0 100%);
+          background: -webkit-linear-gradient(-8deg, #a6a6a6 0%, #c0c0c0 100%);
+          filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#a6a6a6", endColorstr="#c0c0c0", GradientType=1 );
+        }
+
+        &.poison {
+          background: linear-gradient(-8deg, #cccccc 0%, #e6e6e6 100%); 
+          background: -moz-linear-gradient(-8deg, #cccccc 0%, #e6e6e6 100%);
+          background: -webkit-linear-gradient(-8deg, #cccccc 0%, #e6e6e6 100%);
+          filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#cccccc", endColorstr="#e6e6e6", GradientType=1 );
+        }
+      }
+    }
+  }
+}
