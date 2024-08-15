@@ -215,14 +215,12 @@ footer.design2 {
                 display: flex;
                 align-self: center;
                 color: white;
-                font-size: 50px;
+                font-size: 30px;
                 margin-left: 180px ;
                 margin-bottom: 1rem;
                 margin-top: 1rem;
                 /* outline: 3px dotted red; */
             }
-            
-            
         }
     }
 }
@@ -305,10 +303,10 @@ footer.design4 {
     opacity: 0,9;
 }
 
-.socialIconss a:hover{
-    /* background-color: #111; */
-    /* transition: 0.5s; */
-}
+/*.socialIconss a:hover{
+     background-color: #111;
+     transition: 0.5s; 
+}*/
 .socialIcons a:hover i{
     color: white;
     transition: 0.5s;
@@ -331,8 +329,8 @@ footer.design4 {
 
 }
 /* .footerNavv ul li a:hover{
-    opacity: 1; */
-}
+    opacity: 1; 
+}*/
 .footerBottom{
     background-color: #464141;
     padding: 20px;
@@ -410,8 +408,8 @@ h3{
     /* transition-duration: .5s; */
 }
 /* .list li:hover::before{
-    width: 70px; */
-}
+    width: 70px; 
+}*/
 .social-iconsss{
     text-align: center;
     padding: 0;
@@ -518,6 +516,10 @@ a{
             border-radius: 50%;
             cursor: pointer;
             transition: all 0.3s ease;
+
+            &:active {
+                transform: scale(0.9);
+            }
         }
     }
 
@@ -525,7 +527,7 @@ a{
         display: flex;
         position: absolute;
         background-color: #fff;
-        top: 2500px;
+        top: 2455px;
         width: 98.8vw;
         margin: 0 0 10px 0;
         padding: 10px 0 10px 480px;
@@ -622,8 +624,6 @@ footer.design7 {
             /* outline: 3px dotted red; */
         }
 
-        
-        
         button {
             
             --button_radius: 0.75em;
@@ -676,11 +676,23 @@ footer.design7 {
         }
 
         .social-icons {
+            
+
+            &:hover {
+                i:not(:hover) {
+                    transform: scale(0.8);
+                }
+            }
+        
+            & i:hover {
+                color: #fff;
+            }
+
             i {
                 display: flex;
                 align-self: center;
                 color: white;
-                font-size: 50px;
+                font-size: 30px;
                 margin-left: 180px ;
                 margin-bottom: 1rem;
                 margin-top: 1rem;
