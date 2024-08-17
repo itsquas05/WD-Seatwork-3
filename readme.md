@@ -13,7 +13,7 @@
 </div>
 
 <div align="center">
-Check out my website's header and footer gallery for great designs. This website shows a landing page which leads to various choices of static and dynamic headers as well as footers, with attention grabbing designs and layouts.
+Explore the header and footer gallery on my website for some eye-pleasing design options. The website features a landing page that directs you to a variety of static and dynamic headers and footers, all showcasing eye-catching designs and layouts.
 </div>
 
 <br />
@@ -110,7 +110,23 @@ WD-ProjectName
 
 ## Resources
 
-<!-- TODO: Add References -->
-| Title | Purpose | Link |
-|-|-|-|
 | BootStrap Icons | Icons used in header and footer | https://icons.getbootstrap.com/icons/bootstrap/ |
+| Font Awesome | Used to input icons and fonts. | https://fontawesome.com/icons|
+| CSS Terminal Text Effect | Used for text animation on the home page. | https://www.sliderrevolution.com/resources/css-text-animation/ |
+| Color Hunt | Used for the theme and inspiration of the website. | [https://colorhunt.co/palette/27374d526d829db2bfdde6ed]|
+
+## WakaTime
+<div align="center" float="left">
+  <p>
+    <img align="center" src="https://github-readme-stats.vercel.app/api?username=itsquas05&show_icons=true&theme=dark" alt="itsquas05" width=400 />
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=itsquas05&layout=compact&theme=dark" alt="itsquas05" width=310 />
+  </p>
+  <p>
+    <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=itsquas05&theme=radical&hide_border=false" alt="itsquas05" width=430 />
+    <img align="center" src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=itsquas05&theme=tokyonight&utcOffset=+08" alt="itsquas05" width=310 />
+  </p>
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=itsquas05&theme=tokyonight" alt="itsquas05" style="max-width: 100%;border: 1px solid white;border-radius: 6px;" width=600></img>
+
+  <br/>
+  
+</div>
