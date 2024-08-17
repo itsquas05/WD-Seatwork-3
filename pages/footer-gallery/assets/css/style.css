@@ -162,7 +162,7 @@ footer.design2 {
         button {
             
             --button_radius: 0.75em;
-            --button_color: #e8e8e8;
+            --button_color: #7fb176;
             --button_outline_color: #000000;
             font-size: 17px;
             font-weight: bold;
@@ -628,7 +628,7 @@ footer.design7 {
         button {
             
             --button_radius: 0.75em;
-            --button_color: #e8e8e8;
+            --button_color: #7fb176;
             --button_outline_color: #000000;
             font-size: 17px;
             font-weight: bold;
