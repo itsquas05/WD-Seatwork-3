@@ -109,7 +109,8 @@ WD-ProjectName
 ```
 
 ## Resources
-
+| Title | Purpose | Link |
+|-|-|-|
 | BootStrap Icons | Icons used in header and footer | https://icons.getbootstrap.com/icons/bootstrap/ |
 | Font Awesome | Used to input icons and fonts. | https://fontawesome.com/icons|
 | CSS Terminal Text Effect | Used for text animation on the home page. | https://www.sliderrevolution.com/resources/css-text-animation/ |
