@@ -277,7 +277,8 @@ footer.design2 {
 }
 
 footer.design4 {
-    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    
+    background-image: linear-gradient(to right, #77f8ff 0%, #77f8ff 0%, #77f8ff 21%, #237e7f 52%, #112831 78%, #072d34 100%);
     width: 100%;
 }
 
@@ -758,7 +759,7 @@ footer.design7 {
 }
 
 footer.design9 {
-    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    background-image: linear-gradient(to right, #77f8ff 0%, #77f8ff 0%, #77f8ff 21%, #237e7f 52%, #112831 78%, #072d34 100%);
     width: 100%;
 }
 
